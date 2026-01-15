@@ -29,5 +29,7 @@ The dataset contains over 100 2D crystalline materials with their corresponding 
 - **Work function data**: Text files with Z-coordinate and potential values
 
 ## Source
+DOI.ORG:
+https://doi.org/10.1007/s40843-022-2401-3
 
-[Materials are sourced from the Materials Project 2D materials database (MIP2D).](https://www.mathub2d.net/)
+
