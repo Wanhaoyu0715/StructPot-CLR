@@ -95,4 +95,4 @@ learning_rate = 1e-4     # Initial learning rate
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License
