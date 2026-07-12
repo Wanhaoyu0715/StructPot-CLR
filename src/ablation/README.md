@@ -17,7 +17,7 @@ workfunction_eV = evac_eV - efermi_eV
 The fixed split used for this package is:
 
 ```text
-train / validation / test = 1519 / 189 / 191
+train / validation / test
 ```
 
 The test split was not evaluated during HPO. Hyperparameter selection was based only on validation loss, and test metrics were reported after the validation-selected configuration was refit.
@@ -197,18 +197,3 @@ python scripts/train_alignn_workfunction.py \
   --loss smoothl1 \
   --output-dir final_refit/reproduced_best
 ```
-
-## Sanitization
-
-This package was sanitized for public repository upload. Internal paths, usernames, machine hostnames, node IPs, process IDs, and Ray local log directories were removed from the public result tables and JSON files. Run groups are labeled generically as `group_A` and `group_B` only to preserve the fact that the 300 trials were collected from multiple parallel groups.
-
-## Files Not Included
-
-The following are intentionally not included:
-
-- Raw `structures.db` and separate full dataset artifacts.
-- PyTorch checkpoint files such as `best_model.pt`.
-- macOS metadata files.
-- Rendered Word/PDF intermediates and old smoke-test outputs.
-
-This keeps the package focused on HPO evidence, ablation trajectories, final metrics, and reproducibility code.
