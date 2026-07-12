@@ -1,0 +1,8 @@
+parameter,value,search_percentile,edge_flag
+alignn_layers,2,0.3333333333333333,interior
+batch_size,8,1.0,high-edge
+gcn_layers,1,0.0,low-edge
+hidden_features,64,0.0,low-edge
+loss,smoothl1,,categorical
+lr,0.0008350182411692174,0.5395921733064528,interior
+weight_decay,1.3314703565427604e-06,0.062165750940159595,low-edge

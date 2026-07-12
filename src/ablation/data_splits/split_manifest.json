@@ -1,0 +1,76 @@
+{
+  "dataset_name": "MatHub-2D work-function dataset",
+  "target": "workfunction",
+  "target_column": "workfunction_eV",
+  "target_units": "eV",
+  "definition": "workfunction_eV = evac_eV - efermi_eV",
+  "source_db": "raw/structures.db",
+  "source_db_sha256": "c96ca5a614897b63c1405a5778ae9971167eb947021d2a49f57d22f9112e3f92",
+  "label_csv": "raw/mathub2d_efermi_evac_workfunction.csv",
+  "label_csv_sha256": "3b732448bd41e79ad638150b89ab505d9558392899552aa4465719821b898b94",
+  "split_file": "data_splits/wf_seed42_80_10_10_counts1519_189_191.csv",
+  "seed": 42,
+  "split_ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.09999999999999995
+  },
+  "requested_split_counts": {
+    "train": 1519,
+    "val": 189,
+    "test": 191
+  },
+  "valid_label_rows": 1899,
+  "matched_db_rows": 1899,
+  "skipped_csv_rows_with_missing_labels": 12,
+  "missing_db_rows_in_valid_csv": [],
+  "max_abs_formula_diff_eV": 0.0,
+  "summary": {
+    "train": {
+      "count": 1519,
+      "target_min": -12.673953,
+      "target_max": 9.945628,
+      "target_mean": 5.2947862376563535,
+      "target_std": 1.3647962862565328
+    },
+    "val": {
+      "count": 189,
+      "target_min": 1.6397789999999999,
+      "target_max": 8.176003,
+      "target_mean": 5.3757809576719575,
+      "target_std": 1.2079872836704892
+    },
+    "test": {
+      "count": 191,
+      "target_min": 1.414665,
+      "target_max": 8.408652,
+      "target_mean": 5.315039010471204,
+      "target_std": 1.2552030562290357
+    },
+    "all": {
+      "count": 1899,
+      "target_min": -12.673953,
+      "target_max": 9.945628,
+      "target_mean": 5.304884332280147,
+      "target_std": 1.3394883310134091
+    },
+    "outliers_wf_lt_0_or_gt_10": [
+      {
+        "row_id": 1273,
+        "name": "MIP2D-1725-As2Mn2Rb2",
+        "formula": "As2Mn2Rb2",
+        "efermi_eV": 0.6265,
+        "evac_eV": -2.1287810000000005,
+        "workfunction_eV": -2.7552810000000005
+      },
+      {
+        "row_id": 1697,
+        "name": "MIP2D-1048-Sb6Te6",
+        "formula": "Sb6Te6",
+        "efermi_eV": 4.2555,
+        "evac_eV": -8.418453,
+        "workfunction_eV": -12.673953
+      }
+    ]
+  }
+}

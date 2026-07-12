@@ -1,0 +1,41 @@
+{
+  "selection_metric": "best_val_loss_model_space",
+  "selection_mode": "min",
+  "best_trial_row": {
+    "best_epoch": "50",
+    "best_val_loss_model_space": "0.04967615312142741",
+    "config_alignn_layers": "2",
+    "config_batch_size": "8",
+    "config_gcn_layers": "1",
+    "config_hidden_features": "64",
+    "config_loss": "smoothl1",
+    "config_lr": "0.0008350182411692174",
+    "config_weight_decay": "1.3314703565427604e-06",
+    "done": "True",
+    "epoch": "50",
+    "num_reported_rows": "50",
+    "test_mae": "",
+    "test_r2": "",
+    "test_rmse": "",
+    "time_total_s": "434.5272927284241",
+    "training_iteration": "50",
+    "trial_name": "trainable_f770353c_198_alignn_layers=2,batch_size=8,gcn_layers=1,hidden_features=64,loss=smoothl1,lr=0.0008,weight_decay=0.0000_2026-07-09_03-39-49",
+    "val_loss_model_space": "0.04967615312142741",
+    "val_mae": "0.3194884380553493",
+    "val_r2": "0.8721669432239992",
+    "val_rmse": "0.43190074209573337",
+    "run_group": "group_A"
+  },
+  "best_config": {
+    "alignn_layers": 2,
+    "batch_size": 8,
+    "gcn_layers": 1,
+    "hidden_features": 64,
+    "loss": "smoothl1",
+    "lr": 0.0008350182411692174,
+    "weight_decay": 1.3314703565427604e-06
+  },
+  "num_trials": 300,
+  "num_epoch_rows": 5862,
+  "num_ranked_trials": 300
+}
