@@ -152,13 +152,6 @@ alignn_ray300_hpo_ablation/
 
 ![Hyperparameter response atlas](figures/fig6_hyperparameter_response_atlas.png)
 
-### Final refit/test diagnostics
-
-![Final refit parity/residual diagnostics](figures/fig10_final_refit_parity_residual.png)
-
-### Final refit history
-
-![Final refit history](figures/fig11_final_refit_history.png)
 
 ## Reproducibility Notes
 
